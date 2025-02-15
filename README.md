@@ -19,7 +19,7 @@ A 4-layer PCB designed for security systems. Powered by 220V AC, the system prov
 - Altium Designer PCB and schematic files
 - Firmware source code
 
-Branch: `wireless-security-detector`
+Branch: `wireless-security-detector-board`
 
 ---
 
@@ -38,7 +38,7 @@ A high-precision panel meter capable of measuring voltage and current. The measu
 - Altium Designer PCB and schematic files
 - Firmware source code
 
-Branch: `panel-meter-card`
+Branch: `panel-meter-board`
 
 ---
 
