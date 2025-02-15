@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Relay_Analog.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Relay_Analog.SchDoc|FileName=Relay_MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Relay_Analog.SchDoc|FileName=Relay_USBtoUART.SchDoc|SheetNumber=3
