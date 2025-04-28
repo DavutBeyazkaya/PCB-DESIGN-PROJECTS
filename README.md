@@ -2,65 +2,49 @@
 
 This repository contains various embedded systems projects. Each project is stored in its respective branch along with Altium Designer files. Below is a detailed description of each project.
 
-## 📡 Wireless Security Detector (4-Layer PCB Design)
+1. Panel Meter Board
 
-**Description:**  
-A 4-layer PCB designed for security systems. Powered by 220V AC, the system provides 12V and 5V DC outputs. It features motion detection, Wi-Fi data transmission, real-time clock (RTC), temperature display, and interaction with security camera feeds.
+High-precision voltage and current measurement.
 
-**Features:**
-- 220V AC input, 12V and 5V DC outputs
-- Motion detection
-- Data transmission over Wi-Fi
-- Real-time clock (RTC)
-- Temperature sensor
-- Interaction with security cameras
+ADC data processing and display on a 7-segment module.
 
-**Files Included:**
-- Altium Designer PCB and schematic files
-- Firmware source code
+UART communication for real-time monitoring.
 
-Branch: `wireless-security-detector-board`
+2. Relay Test Board
 
----
+ATMEGA328P-based relay testing system.
 
-## ⚡ Panel Meter Card
+Adjustable filtering and relay voltage selection.
 
-**Description:**  
-A high-precision panel meter capable of measuring voltage and current. The measurements are collected via ADC, processed, and displayed on a 7-segment display using the MAX7219 IC. Additionally, data is transmitted to a computer via UART for real-time visualization and logging.
+AP63200WU driver and CH340G USB converter integration.
 
-**Features:**
-- High-precision voltage and current measurement
-- Data acquisition via ADC
-- Display using MAX7219 IC and 7-segment display
-- Real-time data transmission via UART
+3. Wireless Security Detector
 
-**Files Included:**
-- Altium Designer PCB and schematic files
-- Firmware source code
+Motion detection and Wi-Fi data transmission.
 
-Branch: `panel-meter-board`
+Real-time clock and temperature monitoring.
 
----
+220V AC power input with 12V and 5V DC outputs.
 
-## 🔌 Relay Test Card
+4. Reflex Game
 
-**Description:**  
-A versatile relay test board designed for testing different relays. It utilizes the ATMEGA328P microcontroller, AP63200WU driver, and CH340G converter. The board includes customizable filtering and selectable relay voltage options to enhance testing flexibility.
+ATmega328P-based two-player game.
 
-**Features:**
-- ATMEGA328P microcontroller
-- AP63200WU driver
-- CH340G USB-Serial converter
-- Customizable filtering
-- Selectable relay voltage options
+OLED display and 7-segment indicator.
 
-**Files Included:**
-- Altium Designer PCB and schematic files
-- Firmware source code
+Adjustable timers and score tracking system.
 
-Branch: `relay-test-card`
+5. Flight Control Board
 
----
+4-layer PCB design for flight control applications.
+
+Microcontroller-based sensor integration (MPU9250, BMP280, GPS, EEPROM).
+
+Power management with NCP718 and MP1584 voltage regulators.
+
+UART, SWD, BOOT, and ESC connections.
+
+Designed using Altium Designer with comprehensive DRC and ERC checks.
 
 ## 📂 How to Use?
 
