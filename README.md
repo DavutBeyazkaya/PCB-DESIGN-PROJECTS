@@ -1,9 +1,7 @@
 # PCB-DESIGN-PROJECTS
-
 This repository contains various embedded systems projects. Each project is stored in its respective branch along with Altium Designer files. Below is a detailed description of each project.
 
 ## 📡 Wireless Security Detector (4-Layer PCB Design)
-
 **Description:**  
 A 4-layer PCB designed for security systems. Powered by 220V AC, the system provides 12V and 5V DC outputs. It features motion detection, Wi-Fi data transmission, real-time clock (RTC), temperature display, and interaction with security camera feeds.
 
@@ -24,7 +22,6 @@ Branch: `wireless-security-detector-board`
 ---
 
 ## ⚡ Panel Meter Card
-
 **Description:**  
 A high-precision panel meter capable of measuring voltage and current. The measurements are collected via ADC, processed, and displayed on a 7-segment display using the MAX7219 IC. Additionally, data is transmitted to a computer via UART for real-time visualization and logging.
 
@@ -43,7 +40,6 @@ Branch: `panel-meter-board`
 ---
 
 ## 🔌 Relay Test Card
-
 **Description:**  
 A versatile relay test board designed for testing different relays. It utilizes the ATMEGA328P microcontroller, AP63200WU driver, and CH340G converter. The board includes customizable filtering and selectable relay voltage options to enhance testing flexibility.
 
@@ -62,8 +58,25 @@ Branch: `relay-test-card`
 
 ---
 
-## 📂 How to Use?
+## 🛩️ Flight Control Board (4-Layer PCB Design)
+**Description:**  
+A 4-layer PCB designed for flight control applications. The board integrates multiple sensors for attitude estimation, altitude measurement, and positioning, along with robust power management and standard programming/communication interfaces.
 
+**Features:**
+- Microcontroller-based sensor integration (MPU9250, BMP280, GPS, EEPROM)
+- Power management with NCP718 and MP1584 voltage regulators
+- UART, SWD, BOOT, and ESC connections
+- Designed using Altium Designer with comprehensive DRC and ERC checks
+
+**Files Included:**
+- Altium Designer PCB and schematic files
+- Firmware source code
+
+Branch: `flight-control-board`
+
+---
+
+## 📂 How to Use?
 Each project is stored in its respective branch along with the relevant design files. To access a specific project, follow these steps:
 
 ```bash
